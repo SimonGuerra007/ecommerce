@@ -41,7 +41,6 @@ function addToCartFromProducts(db) {
 
             window.localStorage.setItem('cart', JSON.stringify(db.cart))
 
-            console.log(db.cart);
             printProductsInCart(db)
             printCartTotal(db)
             printAmountProducts(db)
@@ -145,7 +144,6 @@ function handleProductsInCart(db) {
         printProductsInCart(db)
         printCartTotal(db)
         printAmountProducts(db)
-        printProductsDescription(db)
     })
 }
 
