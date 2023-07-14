@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="./assets/js/main.js" type="module" defer></script>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body class="">
+    <header class="header">
+        <nav>
+            <div class="principal_icons">
+                <div class="principal_icon" id="scrollUp">
+                    <i class='bx bxl-nodejs'></i>
+                    <h1>STORE</h1>
+                </div>
+                <div class="options_nav">
+                    <div class="options_nav" id="scrollHome">
+                        <h2 class="option_nav position_home">Home</h2>
+                    </div>
+                    <div class="options_nav" id="scrollProducts">
+                        <h2 class="option_nav poisition_products">Products</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="secundary_icons" >
+                <i class='bx bx-moon'></i>
+                <i class='bx bx-cart'>
+                    <span class="amount_products" id="amount_products"></span>
+                </i>
+            </div>
+        </nav>
+    </header>
+
+    <div class="home">
+        <div class="home_info">
+            <h2>New Sweatshirt COLLECTIONS 2023</h2>
+            <p>Latest arrival of the new Hanes Midweight Crewneck sweatshirt imported from the 2022 series, with a modern design.</p>
+            <h3>$15.00</h3>
+            <button class="btn btn_show_more" id="scrollProducts">Show More</button>
+        </div>
+        <div class="home-img">
+            <img src="https://academlostorev1.netlify.app/images/sweater2.png" alt="">
+        </div>
+    </div>
+
+    <section class="buttons">
+        <div class="buttons_1">
+            <button class="btn btn_all" id="all">all</button>
+            <button class="btn btn_shirt" id="shirt">shirts</button>
+        </div>
+        <div class="buttons_2">
+            <button class="btn btn_hoddie" id="hoddie">hoddies</button>
+            <button class="btn btn_sweater" id="sweater">sweaters</button>
+        </div>
+    </section>
+    
+    <section class="products"></section>
+    
+    <section class="cart">
+        <i class='bx bx-x'></i>
+        <div class="cart_products"></div>
+        <hr class="hr">
+        <div class="cart_total">
+            <div class="cart_total--info">
+                <span class="info_amount"></span>
+                <span class="info_total"></span>
+            </div>
+            <button class="btn btn__buy">Buy</button>
+        </div>
+    </section>
+
+    <div class="background"></div>
+    
+    <section class="description">
+        <i class='bx bx-x'></i>
+        <div id="description__info"></div>
+    </section>
+
+    <div id="loader">
+        <div class="loader-content">
+            <div class="loader-content">
+                <i class='bx bxl-nodejs'></i>
+                <h3>CARGANDO...</h3>
+            </div>
+        </div>
+    </div>
+
+    <section class="page_information"></section>
+</body>
+
+</html>
