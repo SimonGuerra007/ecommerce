@@ -37,7 +37,7 @@ export function printProductsAll(db) {
                 <span class='stock'><b>Stock</b>: ${product.quantity}</span>
                 <h5 class='price'>
                     $${product.price}
-                    ${product.quantity ? `<i class='bx bx-plus'></i>` : `<span class='sold_out'>Sold Out</span>`}
+                    ${product.quantity ? `<i class='bx bx-plus' id='${product.id}'></i>` : `<span class='sold_out'>Sold Out</span>`}
                 </h5>
             </div>
         </div>
